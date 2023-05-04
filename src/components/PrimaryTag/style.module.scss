@@ -1,0 +1,57 @@
+.primaryTag {
+    // background: transparent;
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+    margin-right: 10px;
+    padding: 0 15px;
+    // display: inline-block;
+    border: 2px solid var(--color-text-white);
+    // border-color:var(--color-text-white);
+    border-radius: 20px;
+    overflow: hidden;
+
+    :global {
+        .ant-tag{
+
+            color: var(--color-text-white);
+            background-color: transparent;
+            border: none;
+            padding: 0px;
+            margin: 0;
+            font-size: 15px;
+            line-height: 30px;
+
+
+        }
+
+    }
+
+    &::before {
+        content: '';
+        height: 100%;
+        left: 0;
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        width: 100%;
+        z-index: 0;
+        background-color: white;
+    }
+
+    &:hover {
+        text-decoration: none;
+        border-color: var(--color-subject-main);
+        :global{
+            .ant-tag{
+                // color: var(--color-subject-main);
+            }
+        }
+
+        &::before {
+            opacity: 0.08;
+        }
+    }
+
+}

@@ -1,0 +1,21 @@
+.resBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 150px;
+    padding-right: 100px;
+
+    .desc {
+        // height: 20px;
+        width: 600px;
+        border-bottom: 1px dotted var(--color-gray-5);
+        margin: 10px 0;
+        margin-left: 20px;
+        padding-bottom: 10px;
+    }
+
+    .chat {
+        width: 300px;
+
+    }
+}

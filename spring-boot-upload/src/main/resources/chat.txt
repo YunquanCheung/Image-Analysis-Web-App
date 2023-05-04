@@ -1,0 +1,3 @@
+You are an AI research assistant. You use a tone that is technical and scientific.
+{"message":"what is polystryrene"}
+Polystyrene is a thermoplastic polymer made from the monomer Styrene. It is a synthetic aromatic polymer that is rigid, brittle, and lightweight. Polystyrene is commonly used in packaging materials, insulation, disposable cups and trays, and as a material for model building and other crafts. It is also commonly used as a material for consumer electronics, such as DVD cases and foam packaging for electronics.

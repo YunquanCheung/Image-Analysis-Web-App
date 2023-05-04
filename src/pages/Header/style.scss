@@ -1,0 +1,20 @@
+.ant-menu-root {
+    flex-direction: row-reverse;
+    padding-right: 30px;
+    border-bottom: 1px solid var(--color-gray-5);
+}
+
+.headerLZ{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    // border-bottom: 1px solid var(--color-gray-5);
+    .logo{
+        padding-top: 10px;
+
+
+    }
+    .func{
+
+    }
+}

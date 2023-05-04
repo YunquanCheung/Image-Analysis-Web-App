@@ -1,0 +1,25 @@
+.primary-button{
+    position: absolute;
+    height: 40px;
+    right: 0px;
+    border-radius: 20px !important;
+    width: 80px;
+    color: #d4d4d5;
+    background-color: transparent !important;
+    // border: 1px solid hsla(210,8%,51%,.09);
+    border: 1px solid var(--color-grey-plus);
+            &:hover{
+                //  具体实现
+                // border: 1px solid var(--color-subject-main) !important;
+            }
+
+    // loading状态显示before
+    &::before {
+        background: #fff;
+        opacity: 0.6;
+    }
+
+   
+
+}
+

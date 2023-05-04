@@ -1,0 +1,105 @@
+.footer-top {
+    margin-top: 30px;
+    color: #434343;  // gray-9
+    background: #ffe7ba;
+
+    .footer-top-content {
+        padding: 40px 30px 40px 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .follow {
+        margin-left: 150px;
+
+        .follow-text {
+            // color: #d4d4d5;
+            font-size: 25px;
+        }
+
+        .follow-links {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            justify-content: space-around;
+            width: 200px;
+            padding-inline-start: 20px;
+            margin-top: 20px;
+
+            .follow-links-logo {
+                
+            }
+        }
+
+
+    }
+
+    .subscribe {
+        margin-right: 100px;
+
+        .subscribe-text {
+            font-size: 25px;
+
+        }
+
+        .subscribe-input {
+            position: relative;
+            // border: 1px solid hsla(210, 8%, 51%, .09);
+            border: 1px solid var(--color-gray-7);
+            border-radius: 20px;
+            width: 400px;
+            height: 40px;
+            padding-left: 25px;
+            padding-right: 5px;
+            margin-top: 20px;
+            background-color: transparent;
+
+            .ant-input {
+                background-color: transparent;
+                color: var(--color-gray-9);
+
+            }
+
+            .input-button {
+                position: absolute;
+                height: 40px;
+                right: 0px;
+                padding: 5px;
+                color: var(--color-gray-7);
+                width: 100px;
+                border: 1px solid hsla(210, 8%, 51%, .09);
+                &:hover{
+                        color: #fa8c16;
+                       border-color:#fa8c16 !important; 
+                    }
+                // loading状态显示before
+                &::before {
+                    background: #fff;
+                    opacity: 0.1;
+                }
+            }
+
+            &:hover {
+                border-color: #fa8c16;
+            }
+
+        }
+    }
+
+}
+
+
+
+.ant-message {
+    .my-message {
+        .ant-message-notice-content {
+            color: white;
+            border-radius: 10px;
+            background: #121212;
+
+        }
+
+
+    }
+}
