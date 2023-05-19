@@ -5,8 +5,12 @@
 This web app uses GradCAM/GradCAM++ to analyze images and identify important features, with a classification result, visual images output and textual description output. We also integrated a GPT-4-powered scientific assistant on the right-hand side for additional insights.
 
 ## Project demo
+
+### Upload
 ![upload](./upload.gif)
+### Result Display
 ![clsResult_desc](./clsResult_desc.gif)
+### GPT-4 Chatbot 
 ![chatbot](./chatbot.gif)
 ## Web with React
 
